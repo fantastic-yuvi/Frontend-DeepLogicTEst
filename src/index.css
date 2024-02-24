@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.custom-img{
+    background-image: url('./photos/—Pngtree—dark\ red\ background\ showcasing\ 3d_3664249.jpg');
+    
+    }
+    .login{
+      background-image: url('./photos/12067935_4912156.jpg');
+      
+      }
+      .signup{
+        background-image: url('./photos/social-media-icons-rendering.jpg');
+        
+        }
+        .dash{
+          background-image: url('./photos/vivid-blurred-colorful-background.jpg');
+          
+          }
+    @layer utilities{
+      .text-gradient{
+        background-clip:text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
